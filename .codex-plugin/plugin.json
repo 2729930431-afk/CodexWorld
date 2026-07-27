@@ -1,0 +1,40 @@
+{
+  "name": "world",
+  "version": "0.1.0+codex.20260723042551",
+  "description": "Direct, in-place control of the currently running Microsoft Word desktop application.",
+  "author": {
+    "name": "XT194"
+  },
+  "license": "MIT",
+  "keywords": [
+    "word",
+    "docx",
+    "office",
+    "document",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "World",
+    "shortDescription": "\u76f4\u63a5\u4fee\u6539\u5f53\u524d\u6253\u5f00\u7684 Microsoft Word \u6587\u6863",
+    "longDescription": "\u8fde\u63a5\u672c\u673a\u6b63\u5728\u8fd0\u884c\u7684 Microsoft Word\uff0c\u8bfb\u53d6\u6d3b\u52a8\u6587\u6863\u4e0e\u9009\u533a\uff0c\u5e76\u539f\u4f4d\u6267\u884c\u6539\u5199\u3001\u67e5\u627e\u66ff\u6362\u3001\u683c\u5f0f\u3001\u6279\u6ce8\u3001\u4fee\u8ba2\u3001\u8868\u683c\u3001\u56fe\u7247\u3001\u5bfc\u51fa\u53ca Word \u5bf9\u8c61\u6a21\u578b\u64cd\u4f5c\u3002\u9ed8\u8ba4\u4fdd\u5b58\u56de\u539f\u6587\u6863\uff0c\u4e0d\u521b\u5efa\u526f\u672c\u3002",
+    "developerName": "XT194",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write",
+      "Local Word Control",
+      "Tracked Changes"
+    ],
+    "defaultPrompt": [
+      "\u76f4\u63a5\u6539\u5199\u6211\u5f53\u524d\u6253\u5f00\u7684 Word \u6587\u6863\u3002",
+      "\u8bfb\u53d6\u5f53\u524d\u9009\u533a\u5e76\u6309\u6211\u7684\u8981\u6c42\u539f\u4f4d\u4fee\u6539\u3002",
+      "\u68c0\u67e5\u5f53\u524d Word \u6587\u6863\u5e76\u4fee\u6b63\u683c\u5f0f\u3002"
+    ],
+    "brandColor": "#185ABD",
+    "composerIcon": "./assets/world-icon.svg",
+    "logo": "./assets/world-icon.svg"
+  }
+}
