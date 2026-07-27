@@ -1,0 +1,14 @@
+interface:
+  display_name: "World"
+  short_description: "Directly control and edit the open Word document"
+  icon_small: "./assets/world-icon.svg"
+  icon_large: "./assets/world-icon.svg"
+  brand_color: "#185ABD"
+  default_prompt: "Use $world to directly edit my active Microsoft Word document in place."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "world"
+      description: "Local Microsoft Word COM bridge"
+policy:
+  allow_implicit_invocation: true
