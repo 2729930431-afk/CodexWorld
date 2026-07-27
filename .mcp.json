@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "world": {
+      "cwd": ".",
+      "command": "powershell.exe",
+      "args": [
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-STA",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        ".\\scripts\\world-mcp.ps1"
+      ],
+      "note": "Local Microsoft Word COM bridge. Keep desktop Word running in the same Windows user session."
+    }
+  }
+}
